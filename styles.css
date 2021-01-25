@@ -1,0 +1,68 @@
+body {
+  background-color: #EEEEEE;
+}
+h1 {
+  color: #0000A0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+div {
+  background-color: #ADD8E6;
+  padding: 20px;
+  text-align: center;
+
+  width: 600px;
+  box-sizing: border-box;
+  margin: 20px auto; /* Vertical  Horizontal */
+}
+
+.experience {
+  color: 	#0000FF;
+}
+.experience ul {
+  list-style-type: none;
+}
+
+#projects {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal li {
+  float: left;
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
